@@ -1,0 +1,10 @@
+.wrap { width:1600px; margin:40px auto; display: flex; flex-wrap: wrap; }
+.wrap article {display: flex; margin:10px; background:#efefef; width:500px; height: 420px;}
+.wrap article div.left {}
+.wrap article div.left img {width: 300px; height: 420px;}
+.wrap article div.right {margin-left: 15px; width: 220px;}
+.wrap article div.right h3 {padding-top: 30px;margin-bottom: 15px; }
+.wrap article div.right ul {}
+.wrap article div.right ul li {line-height: 50px; border-bottom: 1px dotted #dcdcdc;}
+.wrap article div.right p { margin-top: 30px;}
+.wrap article div.right p button  { width: 150px; height: 50px; background: #000; color:#fff; border: none;}
